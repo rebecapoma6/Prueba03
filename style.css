@@ -11,4 +11,6 @@ body {
     right: 0;
     top: 0;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5%;
+    background-color: blue;
 }
