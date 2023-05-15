@@ -7,28 +7,28 @@
 .menu.container {
     display: block;
     justify-content: center;
+    background: blueviolet;
 }
 
 .logo {
-    position: fixed;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 15%;
-    background-color: rgb(142, 206, 227);
+ 
+
+ 
+    background-color: rgb(142, 206, 227); */
 }
 
 .navbar ul {
     float: right;
-    padding: 0;
+    padding: 15px 25px;
     margin: 0;
     width: 60%;
     height: 100%;
+    display: block;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+    font-size: 16px;
 }
 
 .btn-1 {
