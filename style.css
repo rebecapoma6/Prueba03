@@ -1,2 +1,168 @@
 
 
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+body {
+    background: #bfe6f1;
+}
+
+@media screen and (min-width: 330px){
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+        background-color: #bfe6f1;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }}
+
+.navbar {
+    display: flex;
+    margin-right: 60px;
+}
+
+.menu {
+    margin-left: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.btn-1 {
+    border-radius: 25px;
+    background-color: aqua;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.header-content {
+    background: blue;
+    justify-content: center;
+}
+
+.header-content .img-1 {
+    align-items: center;
+    width: 500px;
+}
+
+@media screen and (min-width: 330px) {
+
+    .content {
+        padding: 100px;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+/* ----cuerpo---- */
+
+.porfolios-container {
+    padding: 40px;
+    background: white;
+    text-align: center;
+
+
+}
+
+.profolio {
+    display: flex;
+    align-items: center;
+
+}
+
+.profolio h3 {
+    font-size: 30px;
+    color: rgb(29, 29, 173);
+    text-align: center;
+    padding: 10px;
+}
+
+.profolio img {
+    text-align: center;
+    width: 350px;
+}
+
+.porpolio-1 {
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+.porpolio-1 p {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 80px;
+
+
+}
+
+.profolio-2 {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.profolio-2 p {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 80px;
+
+}
+
+.block-2 {
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+
+.cars-2 {
+    font-size: 25px;
+    color: black;
+}
+
+.block-2 img {
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.block-2 .btn-2 {
+    margin: 20px;
+}
+
+.btn-2 {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: aqua;
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
