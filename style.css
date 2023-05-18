@@ -243,6 +243,7 @@ body {
     justify-content: center;
     gap: 1.25rem;
     background: white;
+    height: 9.375rem;
 }
 
 .networks i {
