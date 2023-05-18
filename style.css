@@ -9,6 +9,8 @@
 
 body {
     background: #bfe6f1;
+    width: auto;
+    height: auto;
 }
 
 @media screen and (min-width: 330px){
@@ -17,9 +19,8 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 70px;
+        height: 4.0625rem;
         background-color: #bfe6f1;
-        position: fixed;
         width: 100%;
         z-index: 100;
     }}
@@ -60,78 +61,98 @@ body {
 }
 
 .header-content {
-    background: blue;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    background: rgb(49, 49, 132);
+    width: auto;
+    height: 700px;
+    
 }
 
-.header-content .img-1 {
+.content {
+    margin: auto;
+    margin-top: 3.125rem;
+    width: 31.25rem;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.content h1 {
+    color: white;
+}
+
+.content p {
+    color: white;
+}
+
+.img-1 {
+    background-image: url(img/trans.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
     align-items: center;
-    width: 500px;
+    margin: auto;
+    width: 43.75rem;
+    height: 31.25rem;
 }
-
-@media screen and (min-width: 330px) {
-
-    .content {
-        padding: 100px;
-        color: white;
-        text-align: center;
-    }
-}
-
 
 /* ----cuerpo---- */
 
-.porfolios-container {
-    padding: 40px;
+.container-element {
     background: white;
+    width: auto;
+    height: auto;
     text-align: center;
-
-
+    justify-content: space-around;
 }
 
-.profolio {
+.gallery1 {
     display: flex;
-    align-items: center;
-
+    justify-content: space-around;
+    flex-direction: row;
+    padding: .625rem;
 }
 
-.profolio h3 {
-    font-size: 30px;
-    color: rgb(29, 29, 173);
+.gallery2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2%;   
+}
+
+.gallery3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contact-1 {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    padding: 2%;
+}
+
+.contact-1 h3 {
+    font-size: 2.1875rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 49, 132);
     text-align: center;
-    padding: 10px;
+    padding: .625rem;
 }
 
-.profolio img {
-    text-align: center;
-    width: 350px;
-}
-
-.porpolio-1 {
-    text-align: left;
-    margin-bottom: 15px;
-
-}
-
-.porpolio-1 p {
-    font-size: 25px;
+.contact-1 p {
+    font-size: 1.25rem;
     color: black;
-    margin-bottom: 80px;
-
-
 }
 
-.profolio-2 {
-    text-align: right;
-    margin-bottom: 15px;
+.image1 {
+    border: 1px solid black;
+    height: 50%;
 }
 
-.profolio-2 p {
-    font-size: 25px;
-    color: black;
-    margin-bottom: 80px;
-
-}
 
 .block-2 {
     display: block;
@@ -139,7 +160,15 @@ body {
     padding: 30px;
 }
 
-.cars-2 {
+.block-2 h3 {
+    font-size: 2.1875rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 49, 132);
+    text-align: center;
+    padding: .625rem;
+}
+
+.card-2 {
     font-size: 25px;
     color: black;
 }
@@ -163,6 +192,59 @@ body {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
+    margin: 12px;
+}
 
 
+/* -----cuerpo dos----- */
+
+.program-conten {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 350px;  
+   
+}
+
+.buddy {
+    height: 100%; 
+    width: 30%;
+    background-image: url(img/img10.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+.products {
+    margin: 3.125rem;
+    height: 7.5rem;
+    width: auto; 
+}
+
+.custom-list {
+    text-decoration: none;
+    list-style-type:none;   
+}
+
+.resources {
+    margin: 3.125rem;
+    height: 11.25rem;
+    width: auto;
+}
+
+.partners {
+    margin: 3.125rem;
+    height: 9.375rem;
+    width: auto;
+}
+
+.networks {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    background: white;
+}
+
+.networks i {
+    font-size: 30px;
 }
