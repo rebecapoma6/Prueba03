@@ -75,7 +75,6 @@ body {
     width: 31.25rem;
     height: auto;
     text-align: center;
-    border: 1px solid black;
 }
 
 .content h1 {
@@ -128,9 +127,8 @@ body {
 }
 
 .contact-1 {
-    border: 1px solid black;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 55%;
     padding: 2%;
 }
 
@@ -140,23 +138,39 @@ body {
     color: rgb(49, 49, 132);
     text-align: center;
     padding: .625rem;
+    text-align: left;
 }
 
 .contact-1 p {
     font-size: 1.25rem;
     color: black;
+    text-align: left;
 }
 
 .image1 {
-    border: 1px solid black;
     height: 50%;
 }
 
 
 .block-2 {
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     padding: 30px;
+    width: auto;
+    height: auto;
+}
+
+.card-2 {
+    font-size: .9375rem;
+    color: black;
+    max-width: 25rem;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.block-2 img {
+    max-width: 50rem;
+    margin: 0 auto;    
 }
 
 .block-2 h3 {
@@ -167,28 +181,17 @@ body {
     padding: .625rem;
 }
 
-.card-2 {
-    font-size: 25px;
-    color: black;
-}
-
-.block-2 img {
-    width: 50%;
-    padding: 20px;
-    border-radius: 30px;
-}
-
 .block-2 .btn-2 {
     margin: 20px;
 }
 
 .btn-2 {
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
     background-color: aqua;
-    color: white;
+    color: rgb(49, 49, 132);
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: .8125rem;
     text-align: center;
     text-decoration: none;
     margin: 12px;
