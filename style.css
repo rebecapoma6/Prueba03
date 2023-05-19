@@ -83,7 +83,6 @@ body {
     height: 31.25rem; 
 }
 
-
 /* ----cuerpo---- */
 
 .container-element {
@@ -193,8 +192,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: auto;
-    height: 350px;  
-   
+    height: 350px;    
 }
 
 .buddy {
