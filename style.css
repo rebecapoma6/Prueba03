@@ -55,27 +55,20 @@ body {
 }
 
 .header-content {
-    width: auto;
-    height: 700px;
     display: flex;
-    background: rgb(49, 49, 132);
     flex-direction: column;
-    justify-content: center;    
+    padding: 30px;
+    width: auto;
+    height: auto;
+    background-color:rgb(49, 49, 132) ;
 }
 
 .content {
-    margin: auto;
-    margin-top: 3.125rem;
-    width: 31.25rem;
-    height: auto;
+    font-size: .9375rem;
+    color: black;
+    max-width: 25rem;
+    margin: 0 auto;
     text-align: center;
-}
-
-.content h1 {
-    color: white;
-}
-
-.content p {
     color: white;
 }
 
@@ -86,9 +79,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 43.75rem;
-    height: 31.25rem;
+    width: 50rem;
+    height: 31.25rem; 
 }
+
 
 /* ----cuerpo---- */
 
